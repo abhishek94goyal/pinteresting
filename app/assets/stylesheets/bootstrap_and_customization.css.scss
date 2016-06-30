@@ -1,7 +1,23 @@
-$body-bg: #8acfc2;
+@import 'https://fonts.googleapis.com/css?family=Aref+Ruqaa|Indie+Flower|Montserrat+Alternates: 400, 700|Poiret+One';
+
+$body-bg: #b9e2da;
+$font-family-sans-serif: 'Montserrat Alternates', 'Indie Flower', 'Poiret One', 'Aref Ruqaa', 'Arial', sans-serif;
+$navbar-height: 45px;
 $navbar-inverse-bg: #16a085;
 $navbar-inverse-link-color: white;
-$brand-primary: #9b59b6;
-$jumbotron-bg: #fcf3cf;
+//$navbar-inverse-brand-color: 
+$btn-primary-bg: #9b59b6;
+$btn-default-bg: #fbfcfc;
+$jumbotron-bg: #ffffff;
 
 @import 'bootstrap';
+
+.navbar-brand {
+	font-weight: bold;
+	font-size: 30px;
+	font-family: 'Indie Flower';
+}
+
+.center {
+	text-align: center;
+}
