@@ -2,6 +2,7 @@
 	<h1>Printeresting, huh?</h1>
 	<% if user_signed_in?%>
 		<p>Welcome, you are now logged in!</p>
+		<iframe width="420" height="315" src="https://www.youtube.com/embed/hiRacdl02w4" frameborder="0" allowfullscreen></iframe>
 	<% else %>
 	<p><%= link_to "Login", new_user_session_path, class: "btn btn-lg btn-default"%> <%= link_to "Sign up", new_user_registration_path, class: "btn btn-lg btn-primary"%>
 	<% end %>
