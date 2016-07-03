@@ -79,4 +79,8 @@ Rails.application.configure do
 
   # For devise
   config.action_mailer.default_url_options = { host: 'agsprinteresting.herokuapp.com', port: 3000 }
+
+  # Paperclip config:
+  Paperclip.options[:image_magick_path] = "/opt/ImageMagick/bin"
+  Paperclip.options[:command_path] = "/opt/ImageMagick/bin"
 end
