@@ -12,7 +12,9 @@ $jumbotron-bg: #ffffff;
 $panel-primary-heading-bg: #9b59b6;//#b98acb;
 $panel-primary-border: #9b59b6;
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 .navbar-brand {
 	font-weight: bold;
