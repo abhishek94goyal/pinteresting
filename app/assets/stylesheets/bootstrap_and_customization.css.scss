@@ -25,3 +25,44 @@ $panel-primary-border: #9b59b6;
 .center {
 	text-align: center;
 }
+
+button {
+	visibility: hidden;
+}
+
+.button-hider {
+	background: none;
+}
+
+.button-hider:hover button {
+	visibility: visible;
+	background: rgba(22,160,133,0.6);
+	border-color: white;
+}
+
+.full-rounded {
+	border-radius: 10px;
+}
+
+.img-rounded {
+	border-radius: 10px 10px 0px 0px;
+}
+
+#container {
+	position: relative;
+}
+
+#on-image {
+	position: absolute;
+	top: 6px;
+	left: 126px;
+}
+
+.pagination > li > a {
+	color: #16a085;
+}
+
+.pagination > .active > span {
+	background-color: #16a085;
+	border-color: #16a085;
+}
